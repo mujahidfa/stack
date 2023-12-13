@@ -1,0 +1,22 @@
+{
+  "name": "stack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --fix --config .eslintrc --ignore-path .eslintignore"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.5",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "eslint": "^8.55.0",
+    "nuxt": "^3.8.2",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  }
+}

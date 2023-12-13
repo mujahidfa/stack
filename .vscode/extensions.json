@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "pflannery.vscode-versionlens",
+        "bradlc.vscode-tailwindcss",
+        "prisma.prisma",
+        "yoavbls.pretty-ts-errors",
+        "nuxtr.nuxt-vscode-extentions",
+        "formulahendry.auto-complete-tag",
+        "naumovs.color-highlight",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "antfu.iconify"
+    ]
+}
