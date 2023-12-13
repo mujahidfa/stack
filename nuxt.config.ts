@@ -18,5 +18,15 @@ export default defineNuxtConfig({
     typeCheck: true,
     // Enable strict type checking
     strict: true
+  },
+  experimental: {
+    // Define route rules at the page level using defineRouteRules.
+    inlineRouteRules: true,
+    // Enables the experimental <NuxtClientFallback> component for rendering content on the client if there's an error in SSR.
+    clientFallback: true,
+    // Enables experimental component islands support with <NuxtIsland> and .island.vue files.
+    componentIslands: true,
+    // Enable the new experimental typed router using unplugin-vue-router.
+    typedPages: true
   }
 })
