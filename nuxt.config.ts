@@ -11,7 +11,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxt/image',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxt/test-utils/module'
   ],
   typescript: {
     // Enable type-checking at build time
