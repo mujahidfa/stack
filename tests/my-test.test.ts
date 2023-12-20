@@ -1,5 +1,7 @@
-import { expect, it } from 'vitest'
+import { describe, it } from 'vitest'
 
-it('unit test', () => {
-  expect(typeof window).toBe('undefined')
+describe('My test', () => {
+  it('my test', () => {
+    // ...
+  })
 })

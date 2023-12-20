@@ -1,12 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: {
-    enabled: true,
-    // Enable Timeline tracking
-    timeline: {
-      enabled: true
-    }
-  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
@@ -14,11 +7,12 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/test-utils/module'
   ],
-  typescript: {
-    // Enable type-checking at build time
-    typeCheck: true,
-    // Enable strict type checking
-    strict: true
+  devtools: {
+    enabled: true,
+    // Enable Timeline tracking
+    timeline: {
+      enabled: true
+    }
   },
   experimental: {
     // Define route rules at the page level using defineRouteRules.
@@ -29,5 +23,11 @@ export default defineNuxtConfig({
     componentIslands: true,
     // Enable the new experimental typed router using unplugin-vue-router.
     typedPages: true
+  },
+  typescript: {
+    // Enable type-checking at build time
+    typeCheck: true,
+    // Enable strict type checking
+    strict: true
   }
 })
